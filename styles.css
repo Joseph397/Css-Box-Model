@@ -1,0 +1,44 @@
+/* 6:04:37
+CSS BOX Model
+PADDING
+MARGIN
+BORDER
+ */
+/* *{
+    margin:0;
+} */
+
+h1{
+    background: red;
+    padding:20px;
+    margin-top:50px;
+    margin-right:50px;
+    margin-bottom:50px;
+    margin-left:30px;
+    /* or combine all in one like below */
+    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-left: 25px;
+    padding-right: 50px; 
+    /* or combine all in one like below */
+    /* border-style: solid; */
+    /* border-width: 10px; */
+    /* border-color: green; */
+    /* or combine all in one like below */
+    border-bottom-style: dashed;
+    border-bottom-width: 5px;
+    border-bottom-color: green;
+}
+
+p{
+    background: blue;
+    /* padding:20px; */               /* sets all four margins to 20px*/
+    /* padding: 100px 30px; */        /* 100px top and bottom, 30px for left and right*/
+    padding: 20px 40px 60px 10px;     /* top, right, bottom left */
+     /* margin: 100px; */             /* sets 100px to all 4 margins*/
+     /* margin: 70px 20px */          /* 70px sets top and bottom, 20px sets left and right margin*/
+    margin: 50px 60px 20px 80px;      /* top, right, bottom left*/
+    border: 13px solid  orange;     /* border width, border style, color*/
+    
+} 
+
